@@ -26,13 +26,14 @@ h1{
 }
 .button{
 	position: absolute;
-	top:60%;
+	top:70%;
 	transform: translateY(-50%);
 	text-decoration: none;
 	background-color: #FFC0CB; /* Rosa pastel */
 	color: white; /* Texto blanco */
-	padding: 20px;
+	padding: 40px;
 	border-radius: 50%;
+	font-size: 50px;
 }
 #Si{
 	left: 20%;
