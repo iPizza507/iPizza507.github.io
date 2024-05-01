@@ -18,8 +18,8 @@ body{
 	background-size: cover;
 }
 h1{
-	margin: 40% 10%;
-	color: #ffdbe1;
+	margin: 0px;
+	color: red;
 	font-size: 85px;
 	margin: auto;
 	text-align: center;
@@ -51,12 +51,12 @@ h1{
 	h1{
 		margin: auto;
 	}
-  }
+}
   
   /* Estilos para escritorio (1024px en adelante de ancho) */
-  @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 	/* Estilos específicos para escritorio */
 	h1{
 		margin: auto;
 	}
-  }
+}
