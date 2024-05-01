@@ -8,112 +8,44 @@
 	opacity: 0; /* Inicialmente oculto */
 	transition: opacity 0.5s; /* Transición de opacidad */
 }
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	font-family: sans-serif;
+	background-image: url('/rosas3.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	margin: auto;
+	color: black;
+	text-align: center;
+	font-family: 'Lobster', cursive; /* Utiliza Lobster como la fuente principal */
+}
+.button{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	text-decoration: none;
+	background-color: #FFC0CB; /* Rosa pastel */
+	color: white; /* Texto blanco */
 
-/* Estilos para móvil (hasta 767px de ancho) */
+	color:#fff;
+	padding: 15px;
+	border-radius: 50%;
+}
+#Si{
+	left: 20%;
+	transform: translateY(-50%)translateX(-20%);
+}
+#No{
+	left: 80%;
+	transform: translateY(-50%)translateX(-80%);
+}
 @media only screen and (max-width: 767px) {
 	/* Estilos específicos para móvil */
-	body{
-		width: 100vw;
-		height: 100vh;
-		display: flex;
-		font-family: sans-serif;
-		background-image: url('/rosas3.gif');
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 	h1{
 		margin: 60% 10%;
-		color: black;
-		text-align: center;
-		font-family: 'Lobster', cursive; /* Utiliza Lobster como la fuente principal */
 	}
-	.button{
-		position: absolute;
-		top:50%;
-		transform: translateY(-50%);
-		text-decoration: none;
-		background-color: #FFC0CB; /* Rosa pastel */
-		color: white; /* Texto blanco */
-
-		color:#fff;
-		padding: 15px;
-		border-radius: 50%;
-	}
-	#Si{
-		left: 20%;
-		transform: translateY(-50%)translateX(-20%);
-	}
-	#No{
-		left: 80%;
-		transform: translateY(-50%)translateX(-80%);
-	}
-  }
-  
-  /* Estilos para tableta (768px a 1023px de ancho) */
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-	/* Estilos específicos para tableta */
-	body{
-		width: 100vw;
-		height: 100vh;
-		display: flex;
-		font-family: sans-serif;
-		background-color: #000;
-	}
-	h1{
-		margin:auto;
-		color: #fff;
-	}
-	.button{
-		position: absolute;
-		top:50%;
-		transform: translateY(-50%);
-		text-decoration: none;
-		background:#45a5ff;
-		color:#fff;
-		padding: 15px 30px;
-		border-radius: 3%;
-	}
-	#Si{
-		left: 20%;
-		transform: translateY(-50%)translateX(-20%);
-	}
-	#No{
-		left: 80%;
-		transform: translateY(-50%)translateX(-80%);
-	}
-  }
-  
-  /* Estilos para escritorio (1024px en adelante de ancho) */
-  @media only screen and (min-width: 1024px) {
-	/* Estilos específicos para escritorio */
-	body{
-		width: 100vw;
-		height: 100vh;
-		display: flex;
-		font-family: sans-serif;
-		background-color: #000;
-	}
-	h1{
-		margin:auto;
-		color: #fff;
-	}
-	.button{
-		position: absolute;
-		top:50%;
-		transform: translateY(-50%);
-		text-decoration: none;
-		background:#45a5ff;
-		color:#fff;
-		padding: 15px 30px;
-		border-radius: 3%;
-	}
-	#Si{
-		left: 20%;
-		transform: translateY(-50%)translateX(-20%);
-	}
-	#No{
-		left: 80%;
-		transform: translateY(-50%)translateX(-80%);
-	}
-  }
-  
+}
