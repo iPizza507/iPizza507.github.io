@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #000;
+	background-image: url('/rosas1.gif');
+	width: 100vw;
+	height: 100vh;
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.otro ,#div{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%; /* ajusta según necesites */
+	width: auto;
+	animation: fadein 5s;
+}
+
+h1{
+	font-size: 40px;
+}
+h1, h2{
+	
+	animation-name: rainbow;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	text-align: center;
+}
+
+@keyframes rainbow {
+    0% { color: #843b62; } /* Vino */
+    10% { color: #b237a8; } /* Lavanda */
+    20% { color: #7566ad; } /* Azul pálido */
+    30% { color: #009bca; } /* Turquesa */
+    40% { color: #39a59c; } /* Verde azulado */
+    50% { color: #dccb18; } /* Amarillo brillante */
+    60% { color: #f29d49; } /* Naranja */
+    70% { color: #e86f51; } /* Rojo anaranjado */
+    80% { color: #c43e3e; } /* Rojo carmesí */
+    90% { color: #6e3033; } /* Marrón */
+    100% { color: #843b62; } /* Vuelve al principio */
+}
+@keyframes fadein {
+    0% {
+        opacity: 0; /* Completamente transparente */
+    }
+	50% {
+        opacity: 0.5; /* Completamente visible */
+    }
+    100% {
+        opacity: 1; /* Completamente visible */
+    }
+}
+
+
+
+/*
+.button{
+	text-decoration: none;
+	background:#000;
+	color:#fff;
+	padding: 20px 35px;
+	text-align: center;
+}
+.centrarBoton{
+	text-align: center;
+	height: auto;
+	width: auto;
+}
+
+
+#imgMUEVE{
+	position: relative;
+	height: 450px;
+	width: 450px;
+	border-radius: 50%;
+	text-align: center;
+	animation-name: imagen;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes imagen {
+	0%{
+		left: 0px;
+	}
+	50%{
+		left: 1500px;
+	}
+	100%{
+		left: 0px;
+	}
+}
+*/
