@@ -47,7 +47,7 @@ h1{
 @media only screen and (min-width: 768px) and (max-width: 1023px){
 	/* Estilos específicos para tableta */
 	h1{
-		margin: 100% 10%;
+		margin: 70% 10%;
 	}
 }
   
