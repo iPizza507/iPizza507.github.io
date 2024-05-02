@@ -4,10 +4,6 @@
 	margin: 0;
 }
 
-#thanksMessage {
-	opacity: 0; /* Inicialmente oculto */
-	transition: opacity 0.5s; /* Transición de opacidad */
-}
 body{
 	width: 100vw;
 	height: 100vh;
@@ -31,16 +27,16 @@ h1{
 	text-decoration: none;
 	background-color: #ffdbe1; /* Rosa pastel */
 	color: white; /* Texto blanco */
-	padding: 40px;
+	padding: 30px;
 	border-radius: 50%;
-	font-size: 50px;
+	font-size: 60px;
 }
 #Si{
-	left: 20%;
+	left: 30%;
 	transform: translateY(-50%)translateX(-20%);
 }
 #No{
-	left: 80%;
+	left: 70%;
 	transform: translateY(-50%)translateX(-80%);
 }
 
