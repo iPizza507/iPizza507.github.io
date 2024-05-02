@@ -32,11 +32,11 @@ h1{
 	font-size: 60px;
 }
 #Si{
-	left: 25%;
+	left: 23%;
 	transform: translateY(-50%)translateX(-20%);
 }
 #No{
-	left: 75%;
+	left: 78%;
 	transform: translateY(-50%)translateX(-80%);
 }
 
