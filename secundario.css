@@ -35,7 +35,9 @@ h1, h2{
 	animation-iteration-count: infinite;
 	text-align: center;
 }
-
+#espacio{
+	margin: 5% auto;
+}
 @keyframes rainbow {
     0% { color: #843b62; } /* Vino */
     10% { color: #b237a8; } /* Lavanda */
