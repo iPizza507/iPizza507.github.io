@@ -18,10 +18,9 @@ body{
 	background-size: cover;
 }
 h1{
-	margin: 0px;
-	color: red;
-	font-size: 85px;
 	margin: auto;
+	color: #ffdbe1;
+	font-size: 85px;
 	text-align: center;
 	font-family: 'Lobster', cursive; /* Utiliza Lobster como la fuente principal */
 }
@@ -45,16 +44,15 @@ h1{
 	transform: translateY(-50%)translateX(-80%);
 }
 
-/* Estilos para tableta (768px a 1023px de ancho) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px)and (max-width: 1023px){
 	/* Estilos específicos para tableta */
 	h1{
-		margin: auto;
+		margin: 100% 10%;
 	}
 }
   
   /* Estilos para escritorio (1024px en adelante de ancho) */
-@media only screen and (min-width: 1024px) {
+@media all and (min-width: 1024px){
 	/* Estilos específicos para escritorio */
 	h1{
 		margin: auto;
