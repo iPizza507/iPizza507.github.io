@@ -36,7 +36,7 @@ h1, h2{
 	text-align: center;
 }
 #espacio{
-	margin: 5% auto;
+	margin: 5% 0;
 }
 @keyframes rainbow {
     0% { color: #843b62; } /* Vino */
